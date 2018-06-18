@@ -1,8 +1,8 @@
 # esTransfer
 > elasticsearch data transfer between clusters. Using elasticsearch-5.6.0 version.
 
-##配置示例如下
-
+配置示例如下
+```properties
 ##数据源es配置
 app.es.source.esHosts=127.0.0.1:9200
 app.es.source.esUserName=***
@@ -24,3 +24,4 @@ app.es.target.type=type
 ##其他配置
 ###size默认为1000
 es.size=1000
+```
